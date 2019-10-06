@@ -2,17 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c752940a-9f7f-4a51-8eea-23d57fa3797a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/design/principle/dependenceinversion/ICourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/design/principle/dependenceinversion/JavaCourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/design/principle/dependenceinversion/JavaScriptCourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/design/principle/dependenceinversion/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/design/principle/dependenceinversion/PythonCourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/design/principle/dependenceinversion/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/design/principle/openclose/ICourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/design/principle/openclose/JavaCourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/design/principle/openclose/JavaDiscountCourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/design/principle/openclose/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/design/principle/intefacesegregation/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/design/principle/intefacesegregation/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/design/principle/intefacesegregation/IAnimalAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/design/principle/intefacesegregation/IEatAnimalAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/design/principle/intefacesegregation/IFlyAnimalAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/design/principle/intefacesegregation/ISwimAnimalAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/design/principle/singleresponsebility/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/design/principle/singleresponsebility/CourseImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/design/principle/singleresponsebility/FlyBird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/design/principle/singleresponsebility/ICourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/design/principle/singleresponsebility/ICourseContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/design/principle/singleresponsebility/ICourseManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/design/principle/singleresponsebility/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/design/principle/singleresponsebility/WalkBird.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,6 +32,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -49,6 +53,20 @@
         <option value="$PROJECT_DIR$/src/main/java/com/example/design/principle/dependenceinversion/PythonCourse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/design/principle/dependenceinversion/Person.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/design/principle/dependenceinversion/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/design/principle/singleresponsebility/Bird.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/design/principle/singleresponsebility/FlyBird.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/design/principle/singleresponsebility/WalkBird.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/design/principle/singleresponsebility/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/design/principle/singleresponsebility/ICourse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/design/principle/singleresponsebility/ICourseContent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/design/principle/singleresponsebility/ICourseManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/design/principle/singleresponsebility/CourseImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/design/principle/intefacesegregation/IAnimalAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/design/principle/intefacesegregation/IEatAnimalAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/design/principle/intefacesegregation/IFlyAnimalAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/design/principle/intefacesegregation/ISwimAnimalAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/design/principle/intefacesegregation/Dog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/design/principle/intefacesegregation/Bird.java" />
       </list>
     </option>
   </component>
@@ -75,6 +93,9 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunDashboard">
@@ -89,13 +110,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test (1)">
+  <component name="RunManager" selected="Application.Test (2)">
     <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.design.principle.dependenceinversion.Test" />
       <module name="design_pattern" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.design.principle.dependenceinversion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.design.principle.singleresponsebility.Test" />
+      <module name="design_pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.design.principle.singleresponsebility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,6 +152,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test" />
       </list>
@@ -134,6 +169,14 @@
       <option name="presentableId" value="Default" />
       <updated>1570332546138</updated>
     </task>
+    <task id="LOCAL-00001" summary="1、开闭原则&#10;2、依赖倒置原则">
+      <created>1570367458532</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1570367458532</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -155,7 +198,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21258135" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36659437" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -171,6 +214,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1、开闭原则&#10;2、依赖倒置原则" />
+    <option name="LAST_COMMIT_MESSAGE" value="1、开闭原则&#10;2、依赖倒置原则" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -314,12 +361,254 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/design/principle/singleresponsebility/Bird.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/design/principle/singleresponsebility/FlyBird.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" selection-start-line="6" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/design/principle/singleresponsebility/WalkBird.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" selection-start-line="6" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/design/principle/singleresponsebility/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="6" selection-start-line="6" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/design/principle/singleresponsebility/ICourse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" selection-start-line="11" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/design/principle/singleresponsebility/ICourseContent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" selection-start-line="6" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/design/principle/singleresponsebility/ICourseManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" selection-start-line="6" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/design/principle/singleresponsebility/CourseImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" selection-start-line="6" selection-end-line="22" selection-end-column="1" />
+          <folding>
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.example.design.principle.singleresponsebility">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.example.design.principle.singleresponsebility</OriginalElement>
+          <nodes>
+            <node x="" y="">com.example.design.principle.singleresponsebility.ICourseContent</node>
+            <node x="" y="">com.example.design.principle.singleresponsebility.CourseImpl</node>
+            <node x="" y="">com.example.design.principle.singleresponsebility.ICourse</node>
+            <node x="" y="">com.example.design.principle.singleresponsebility.FlyBird</node>
+            <node x="" y="">com.example.design.principle.singleresponsebility.ICourseManager</node>
+            <node x="" y="">com.example.design.principle.singleresponsebility.WalkBird</node>
+            <node x="" y="">com.example.design.principle.singleresponsebility.Bird</node>
+            <node x="" y="">com.example.design.principle.singleresponsebility.Test</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.1999999999999997" x="247.81318681318692" y="298.50000000000006" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/design/principle/intefacesegregation/IAnimalAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/design/principle/intefacesegregation/IEatAnimalAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" selection-start-line="6" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/design/principle/intefacesegregation/IFlyAnimalAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" selection-start-line="6" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/design/principle/intefacesegregation/ISwimAnimalAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" selection-start-line="6" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/design/principle/intefacesegregation/Dog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" selection-start-line="6" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/design/principle/intefacesegregation/Bird.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" selection-start-line="6" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.example.design.principle.intefacesegregation">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.example.design.principle.intefacesegregation</OriginalElement>
+          <nodes>
+            <node x="" y="">com.example.design.principle.intefacesegregation.IAnimalAction</node>
+            <node x="" y="">com.example.design.principle.intefacesegregation.Bird</node>
+            <node x="" y="">com.example.design.principle.intefacesegregation.ISwimAnimalAction</node>
+            <node x="" y="">com.example.design.principle.intefacesegregation.IFlyAnimalAction</node>
+            <node x="" y="">com.example.design.principle.intefacesegregation.Dog</node>
+            <node x="" y="">com.example.design.principle.intefacesegregation.IEatAnimalAction</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.2999999999999998" x="276.48717948717945" y="175.885780885781" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Python 3.7 interpreter library</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>design_pattern</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
